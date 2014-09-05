@@ -1,4 +1,5 @@
-This simple script spoofs IP adresses and sends votes to strawpoll.me
+This simple script sends spoofed votes to strawpoll.me
+
 The script however is very limited as it relies on TOR and the number of exit nodes' IP addresses. The longer the script is in use the slower it will vote.
 
 For this to work you will need to install TOR and also make sure that the tor configuration file is set to listen on port 9050, or edit the script to listen to whatever config you have. Don't forget to run the script wiht sudo.
